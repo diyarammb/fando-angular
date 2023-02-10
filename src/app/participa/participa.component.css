@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+
+.masthead {
+    padding: 30px 0;
+}
+
+h4,p{
+    color: #213c73;
+}.lead {
+    margin-top: -14px;
+    font-size: 12px;
+
+}.rm{
+    margin-top: 20px;
+}header{
+    margin-bottom: 100px;
+}
+
+.plus{
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #213c73;
+}
+.gb{
+    background-color: #213C73;
+}
+.card-title{
+    color: #c9c7c7;
+   font-weight: 500;
+}
+p.card-text {
+    color:white;
+    font-weight: 600;
+    font-size: 12px;
+}
+img.img-fluid.rounded-start{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .plus {
+        width: 100%;
+    }
+}

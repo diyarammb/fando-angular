@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+.masthead {
+    padding: 30px 0;
+}
+
+
+h4 ,p{
+    color: #213c73;
+
+}.heading1{
+    /* margin-top: -10px; */
+    font-size: 16px;
+    color: #5B5B5B;
+}input{
+    width: 75%; 
+    background-color: gainsboro;
+}.rem{
+    margin-top: 5px;
+    /* margin-left: 324px; */
+    /* font-size: 12px; */
+    color: #5B5B5B;
+    
+
+    font-size: 14px;
+}
+
+header{
+    margin-bottom: 100px;
+}
+
+.register{
+    /* margin-left: 100px; */
+    text-align: center;
+    font-size: 12px;
+
+}
+
+a.form1 {
+    color: #5B5B5B;
+    font-weight: 700;
+    font-size: 14px;
+    /* text-decoration: none; */
+}
+/* .register[_ngcontent-wek-c17]{
+    margin-top: 8px;
+} */
+@media only screen and (max-width: 1024px){
+
+    input {
+    text-align: center;
+     margin-left: 0px !important;
+     width: 100%;
+}
+.rem{
+    margin-left: 0px;
+}form{
+    width: 70%;
+    margin: 0px auto;
+}
+.register{
+    margin-left: 30px;
+}
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .heading {
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .heading1 {
+        font-weight: bold;
+        font-size: 20px;
+        margin: auto;
+    }
+
+    input {
+        text-align: center;
+        margin-left: 80px;
+        width: 1000px;
+    }
+
+    .center {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+    }
+
+
+.heading {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.heading1 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+}
+
+input {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.center {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    
+    }.heading{
+        font-weight: bold;
+        font-size: 40px;
+    }.heading1{
+        font-weight: bold;
+        font-size: 20px;
+        margin: auto;
+    }
+
+    input {
+
+        text-align: center;
+        margin-left: 80px;
+    }
+
+    .center {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+
+    }
+}
+
+.login-form label {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    /* margin-bottom: 1rem; */
+    /* display: block; */
+    color: #213C73;
+
+}
+
+.login-form .form-control {
+    background: #FFFFFF;
+    width: 100%;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    color: #000000;
+    height: 40px;
+
+}
+
+.login-form .ingbtn {
+  width: 100%;
+}
+
+.login-form {
+    width: 80%;
+}

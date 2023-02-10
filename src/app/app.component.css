@@ -1,0 +1,18 @@
+
+html,body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.footer-main{
+    margin-top: auto;
+}
+.app-main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.masthead {
+    padding: 100px 0;
+}
